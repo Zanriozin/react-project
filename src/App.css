@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(247, 242, 235);
+}
+
+.empDetails{
+  margin: 2em;
+  display :flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1em;
+  border-color: black;
+  background-color: rgb(185, 226, 249);
+  width: 15em;
+  height: 7em;
+  padding: 1em;
+}
+.empName, .empAge, .empState{
+  margin: 2.5px;
+
+}
